@@ -23,6 +23,7 @@ abstract class Soporte {
     }
 
     public function muestraResumen () { 
+        echo "<em>" . $this->titulo . "</em><br />" . $this->getPrecio() . "€ (IVA no incluído).";
     }
 }
 
