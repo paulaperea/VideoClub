@@ -1,6 +1,6 @@
 <?php
 
-class Soporte {
+abstract class Soporte {
     
     private static $iva = 21; 
     
